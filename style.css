@@ -1,0 +1,671 @@
+.homepage {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.homepage .nav-bar {
+  display: flex;
+  width: 1241px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 45px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.homepage .logo {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.homepage .ellipse {
+  position: relative;
+  width: 74px;
+  height: 74px;
+  border-radius: 37px;
+  background: linear-gradient(
+    220deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(51, 51, 51, 1) 50%,
+    rgba(102, 102, 102, 1) 100%
+  );
+}
+
+.homepage .shoes-shop-nguyen-t {
+  position: relative;
+  width: 257px;
+  height: 74px;
+  margin-top: -1.00px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .navbar {
+  display: inline-flex;
+  height: 94px;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .text-wrapper {
+  position: relative;
+  width: fit-content;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .cart {
+  display: inline-flex;
+  height: 94px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .cart-button {
+  position: relative;
+  width: 180px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 30px;
+}
+
+.homepage .div {
+  position: absolute;
+  width: 30.00%;
+  height: 66.00%;
+  top: 16.00%;
+  left: 35.00%;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .hero-section {
+  position: relative;
+  width: 1241px;
+  height: 392px;
+  background-color: #b3e140;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.homepage .shoe {
+  position: absolute;
+  top: calc(50.00% - 196px);
+  right: 0;
+  width: 831px;
+  height: 392px;
+  aspect-ratio: 1.76;
+  object-fit: cover;
+}
+
+.homepage .move-with-style {
+  position: absolute;
+  top: 0px;
+  left: 22px;
+  width: 500px;
+  font-family: "Inria Serif-Light", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .span {
+  font-weight: 300;
+}
+
+.homepage .text-wrapper-2 {
+  font-family: "Inria Serif-Regular", Helvetica;
+}
+
+.homepage .text-wrapper-3 {
+  font-family: "Henny Penny", "Inria Serif", Helvetica, sans-serif;
+  font-weight: 400;        /* Henny Penny only has Regular (400) */
+}
+
+.homepage .p {
+  position: absolute;
+  top: 100px;
+  left: 22px;
+  width: 515px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .shop-button {
+  position: absolute;
+  top: 236px;
+  left: 100px;
+  width: 200px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 30px;
+
+  text-align: center;
+}
+
+.homepage .text-wrapper-4 {
+  position: absolute;
+  width: 60.56%;
+  height: 58.00%;
+  top: 20.00%;
+  left: 19.44%;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .shop-by-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .categories {
+  display: flex;
+  width: 1241px;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .div-2 {
+  position: relative;
+  width: 368px;
+  height: 245px;
+}
+
+.homepage .sneakers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 366px;
+  height: 245px;
+  aspect-ratio: 1.49;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-6 {
+  position: absolute;
+  top: 98px;
+  left: 95px;
+  -webkit-text-stroke: 1px #5d5d5d;
+  font-family: "Inria Serif-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .running {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 366px;
+  height: 245px;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-7 {
+  position: absolute;
+  top: 98px;
+  left: 102px;
+  -webkit-text-stroke: 1px #5d5d5d;
+  font-family: "Inria Serif-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .boots {
+  position: relative;
+  width: 352px;
+  height: 245px;
+}
+
+.homepage .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 245px;
+  aspect-ratio: 1.43;
+  object-fit: cover;
+}
+
+.homepage .text-wrapper-8 {
+  position: absolute;
+  top: 98px;
+  left: 121px;
+  -webkit-text-stroke: 1px #5d5d5d;
+  font-family: "Inria Serif-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .products-section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 10px;
+  align-self: stretch;
+  width: 100%;
+  background-color: #6565650a;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .div-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .products {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 10px;
+  align-self: stretch;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .white-sneakers {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.homepage .picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #edeff3;
+}
+
+.homepage .image {
+  width: 175px;
+  height: 175px;
+  aspect-ratio: 1;
+  position: relative;
+  object-fit: cover;
+}
+
+.homepage .div-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .text-wrapper-9 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inria Serif-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .div-5 {
+  display: inline-flex;
+  flex-direction: column;
+  height: 283px;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #000000;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .image-2 {
+  width: 235px;
+  height: 193px;
+  position: relative;
+  object-fit: cover;
+}
+
+.homepage .text {
+  display: flex;
+  width: 235px;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.homepage .view-all-products {
+  position: relative;
+  width: 337px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 30px;
+}
+
+.homepage .text-wrapper-11 {
+  position: absolute;
+  width: 62.61%;
+  height: 58.00%;
+  top: 20.00%;
+  left: 18.40%;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .guaranteed-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.homepage .polygon {
+  position: relative;
+  width: 90.9px;
+  height: 81.64px;
+}
+
+.homepage .text-wrapper-12 {
+  position: relative;
+  width: 277px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .rectangle {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(51, 195, 235, 1) 0%,
+    rgba(23, 133, 180, 1) 100%
+  );
+}
+
+.homepage .text-wrapper-13 {
+  position: relative;
+  width: 323px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .star {
+  position: relative;
+  width: 97.01px;
+  height: 92.26px;
+}
+
+.homepage .about-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--about-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.homepage .logo-and-name {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  position: relative;
+  align-self: stretch;
+  flex: 0 0 auto;
+}
+
+.homepage .logo-2 {
+  height: 69px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.homepage .ellipse-2 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  background: linear-gradient(
+    220deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(51, 51, 51, 1) 50%,
+    rgba(102, 102, 102, 1) 100%
+  );
+}
+
+.homepage .shoes-shop-nguyen-t-2 {
+  position: relative;
+  width: 257px;
+  height: 74px;
+  margin-top: -1.00px;
+  margin-bottom: -24.00px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-14 {
+  position: relative;
+  width: 363px;
+  height: 82px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .quick-links-shop-all {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.homepage .customer-service {
+  display: inline-flex;
+  flex-direction: column;
+  height: 170px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.homepage .customer-service-2 {
+  position: relative;
+  width: 176px;
+  height: 209px;
+  margin-top: -1.00px;
+  margin-bottom: -10.00px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.homepage .stay-connected {
+  position: relative;
+  width: 397px;
+  margin-top: -1.00px;
+  font-family: "Inria Serif-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.homepage .facebook {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
